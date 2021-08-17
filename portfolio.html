@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Andrew Li</h1>
+    <img src="picture.jpg" alt="picture of me" width="100">
+    <br>
+    <img src="GitHub-Mark-64px.png" alt="gitHub-logo" width="25">
+    <a href="https://github.com/andrewdongli">my GitHub </a>
+    <img src="linkedin-logo.png" alt="linkedin-logo" width="25">
+    <a href="https://www.linkedin.com/in/dongliang-andrew-li-b5241318b/">my LinkedIn</a>
+    <img src="email-logo.png" alt="email-logo" width="25">
+    <a href="mailto:liandrewdong@gmail.com">my Email</a>
+
+    <h2>Technologies</h2>
+    <table>
+        <tr>
+            <th>Front-End</th>
+            <th>Python</th>
+            <th>JavaScript</th>
+            <th>Database</th>
+            <th>Concepts</th>
+        </tr>
+        <tr>
+            <td>HTML5</td>
+            <td>Django</td>
+            <td>Express</td>
+            <td>MySQL</td>
+            <td>AJAX</td>
+        </tr>
+        <tr>
+            <td>CSS3</td>
+            <td>Flask</td>
+            <td>Mongoose</td>
+            <td>MongoDB</td>
+            <td>OOP</td>
+        </tr>
+        <tr>
+            <td>Bootstrap</td>
+            <td>Unittest</td>
+            <td>React</td>
+            <td></td>
+            <td>REST</td>
+        </tr>
+    </table>
+    <form method="post">
+        <p><strong>Contact Me</strong></p>
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name"  placeholder="Your Name">
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Your Email">
+        </div>
+        <div>
+            <p>Message:</p>
+            <textarea name="message"  cols="50" rows="5"></textarea>
+        </div>
+        <input type="submit" value="Send Message">
+    </form>
+</body>
+</html>
